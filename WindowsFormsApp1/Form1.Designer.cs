@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApp1
+﻿namespace Vibration_Form
 {
     partial class Form1
     {
@@ -40,7 +40,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "開始";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // Form1
             // 
@@ -49,7 +49,7 @@
             this.ClientSize = new System.Drawing.Size(922, 795);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Vibration Program";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
